@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Formating Page Content</title>
+        <meta name="author" content="A Thawi"/>
+        <meta name="description" content="Lesson on fomatting HTML content"/>
+    </head>
+    <body>
+        Business communicon between employees within and outside the company. Effective 
+        business communication is how employees and management interact with each other to reach 
+        organizational goals and be more aligned with the core company values. Its main purpose is 
+        to improve organizational practices, eliminate silos, keep employees informed and reduce errors.
+         The essay will discuss more on how communication is key to organisation’s &quot;XHTML&#34; 5 &gt; 3
+         <p>Me &amp;my friends</p>
+
+         <p>&copy; 2023, A Thawi.</p>
+
+         <p>&spades;7 </p>
+         <p>&sum;<sup>10</sup><sub>2</sub>2-1</p>
+
+         <img 
+         src="images/my first.jpg"
+          width="400px" 
+          height="400px"
+          alt="Image of STEM formulas, graphs and diagrams"
+          align="right"
+          />
+    </body>
+</html>
