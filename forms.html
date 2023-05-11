@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Forms</title>
+    <link rel="shortcut icon" href="/images/myfirst.jpg" />
+    <meta name="author" content="A Thawi" />
+    <meta name="description" content="Lesson on fomatting HTML content" />
+</head>
+
+<body>
+    <h1>HTML Forms</h1>
+
+    <form>
+        <label for="firstname">First Name:</label>
+        <input type="text" name="firstnamme" /> <br>
+        <label for="surname">Surname:</label>
+        <input type="text" name="surname" /> <br>
+        <label for="age">AGE:</label>
+        <input type="text" name="age" /><br>
+        <button type="submit">submit</button>
+        <button type="reset">Reset</button>
+        <button type="button">button</button>
+    </form>
+
+    <h3>forms with fieldset</h3>
+    <form>
+        <fieldset>
+            <label for="firstname">First Name:</label>
+            <input type="text" name="firstnamme" />
+            <label for="surname">Surname:</label>
+            <input type="text" name="surname" />
+            <label for="age">AGE:</label>
+            <input type="text" name="age" />
+        </fieldset>
+        <button type="submit">submit</button>
+        <button type="reset">Reset</button>
+        <button type="button">button</button>
+
+    </form>
+
+    <h3>form with text area</h3>
+    <form>
+        <label for="firstname">First Name:</label>
+        <input type="text" name="firstname" placeholder="John" />
+        <label for="surname">Surname:</label>
+        <input type="text" name="surname" />
+        <label for="age">AGE:</label>
+        <input type="text" name="age" />
+        <textarea rows="20" cols="50" placeholder="type here"></textarea>
+
+    </form>
+
+    <h3>forms with select</h3>
+    <form>
+        <label for="animal">Select an Animal:</label>
+        <select id="animals">
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="cow">Cow</option>
+            <option value="donkey">Donkey</option>
+        </select>
+
+    </form>
+
+<he
+    <h3>forms with option group</h3>
+    <form>
+        <label for="animal">Select an Animal:</label>
+        <select id="animals">
+            <optgroup label="pets">
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+            </optgroup>
+            <optgroup label="livestock">
+                <option value="cow">Cow</option>
+                <option value="donkey">Donkey</option>
+            </optgroup>
+            
+        </select>
+
+    </form>
+
+    <h3>forms with datalist</h3>
+    <form>
+        <label for="animal-list">Select an Animal:</label>
+        <input list="animal-list" name="animal-choice"/>
+        <datalist id="animal-list">
+            <option value="dog"></option>
+            <option value="cat"></option>
+            <option value="cow"></option>
+            <option value="donkey"></option>
+        </datalist>
+
+    </form>
+</body>
+
+</html>
