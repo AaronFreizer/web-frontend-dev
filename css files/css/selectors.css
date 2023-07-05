@@ -1,0 +1,73 @@
+ /*universal selector*/
+ * {
+    color: crimson;
+}
+
+/*Type selectors*/
+h4 {
+    color: blue;
+}
+
+/*Descendent selector*/
+p big {
+    color: darkgreen;
+}
+
+div sup {
+    color: #000;
+}
+
+/*class selector*/
+.smaller {
+    font-size: xx-small;
+
+}
+
+.colourful {
+    color: blueviolet;
+}
+
+/*ID Selector*/
+p#sup {
+    color: cornflowerblue;
+}
+
+#sup sub {
+    color: coral;
+}
+
+/*Child Selector*/
+p>big {
+    font-size: xx-large;
+    color: grey;
+}
+
+/*Attribute selector*/
+    input[type="submit"] {
+        background-color: blue;
+        border-color: lightblue;
+        border-radius: 10px;
+        width: 80px;
+        font-weight: bold;
+        color: white;
+        padding: 4px;
+    }
+
+    input[type="text"] {
+        padding: 4px;
+        border-radius: 8px;
+        box-shadow: none;
+    }
+    label[title="name"] {
+        color: blue;
+    }d
+    p[id="sup"] {
+        font-size: xx-large;
+    }
+    /*grouping selectors*/
+    h4, big, small {
+        color: burlywood;
+    }
+    #sup, #span {
+        color: darkgray;
+    }

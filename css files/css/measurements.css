@@ -1,0 +1,23 @@
+/*Relative measurements*/
+body {
+    font-size : 100%;
+    margin-left :2em;
+    margin-right :2em;
+}
+
+header {
+    padding-bottom : 0.75em;
+    border-bottom : 3px solid black;
+}
+
+h1 {
+    font-size :300%;
+    margin-bottom :0;
+}
+
+/* Absolute measurements*/
+/* body {
+    font-size : 21px;
+    margin-left :50px;
+    margin-right :50px;
+} */

@@ -1,0 +1,60 @@
+body {
+    border: 3px dotted black;
+    margin: 30px;
+}
+
+main {
+    border: 2px solid black;
+    width: 500px;
+    margin:20px;
+    padding:10px;
+}
+
+h1, p {
+    border: 1px dashed black;
+    padding:10px;
+}
+
+h1 {
+    margin: .5em 0 0.25em;
+    padding-left: 15px;
+}
+
+p {
+    margin:0;
+    padding-left: 15px;
+}
+
+#don {
+    margin: .5em 0 0;
+    max-width: auto;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.double {
+    border: 1px double blue;
+    margin: .5em;
+}
+
+.groove {
+    border: 1px groove grey;
+    margin: .5em;
+    border-radius: 20px 0 0 0;
+    box-shadow: 10px 10px 15px 5px grey;
+}
+
+.inset {
+    border: 10px inset purple;
+    margin: .5em;
+}
+
+.outset {
+    border: 10px outset yellow;
+    margin: .5em;
+}
+
+.ridge {
+    border: 1px ridge red;
+    margin: .5em;
+}

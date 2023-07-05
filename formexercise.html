@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Forms exercise</title>
+    <link rel="shortcut icon" href="/images/myfirst.jpg" />
+    <meta name="author" content="A Thawi" />
+    <meta name="description" content="Lesson on fomatting HTML content" />
+</head>
+
+<body>
+    <h1>HTML Forms exercise</h1>
+
+    <form>
+        <fieldset>
+            <label for="firstname">First Name :</label>
+            <input type="text" name="firstname">
+            <br />
+            <br />
+            <label for="lastname">Last Name :</label>
+            <input type="text" name="lastname">
+            <br />
+            <br />
+
+            <label for="username">Username :</label>
+            <input type="username" name="username">
+            <br />
+            <br />
+
+            <label for="email">Email :</label>
+            <input type="email" name="email" placeholder="example@gmail.com">
+            <br />
+            <br />
+
+            <label for="tel">Telephone :</label>
+            <input type="tel" name="tel" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}">
+            <br />
+            <br />
+
+            <label for="password">Password:</label>
+            <input type="password" name="password" minlength="6" maxlength="12">
+            <br />
+            <br />
+
+            <label for="password">Confirm Password :</label>
+            <input type="password" name="password" minlength="6" maxlength="12">
+            <br />
+            <br />
+
+            <label for="gender">Gender :</label>
+            <input type="radio" id="male" value="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" value="female" name="gender">
+            <label for="female">Female</label>
+
+
+
+            <br />
+            <br />
+
+            <label for="color">Profile Colour:</label>
+            <input type="color" name="color">
+            <br />
+            <br />
+
+            <label for="date">Date of Birth :</label>
+            <input type="date" name="date">
+            <br />
+            <br />
+
+            <label for="datetime-local">Lesson Start:</label>
+            <input type="datetime-local" name="datetime-local">
+            <br />
+            <br />
+
+            <label for="file">Upload your Profile Picture :</label>
+            <input type="file" name="file">
+            <br />
+            <br />
+
+            <label for="url">Website</label>
+            <input type="url" name="url" placeholder="https://www.example.com">
+            <br />
+            <br />
+
+            <input type="button" name="cancel" value="Cancel">
+
+            <br />
+            <br />
+            <input type="reset" name="reset" value="clear">
+
+            <br />
+            <br />
+
+            <input type="submit" name="submit">
+
+            <br />
+            <br />
+        </fieldset>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+/* the styles for the main content */
+
+main { 
+    clear: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+ }
+main h1 {
+    font-size: 150%;
+    border-top: 3px solid blue;
+    border-bottom: 3px solid blue;
+    padding-top: .3em;
+    padding-bottom: .3em;
+}
+
+main h2 {
+    font-size: 130%;
+    color: #800000;
+    padding-top: 0.5em;
+    padding-bottom: 0.25em;
+
+}
+
+main h3 {
+    font-size: 105%;
+    padding-bottom: 0.25em;    
+}
+
+main p.indent {text-indent: 2em; }
+main a.date_passed {color: gray; }
+
+/* a:hover a:focus {italic}failed to italise this */
+main a:hover {
+    font-style: italic;
+}
+
+img {
+    /* padding-bottom: .25em; */
+    padding-top: .25em;
+}
+
+ul {
+    text-decoration: none;
+}
+li {
+    float: left;
+    list-style-type: none;
+    border: 2px solid blue;
+    margin:.25em .25em;
+    padding: 0.25em .25em .25em .25em;
+}
+h2{
+    clear: left;
+}
+
+p {
+    clear:left;
+    padding: 0.5em bottom
+}
+
+blockquote {
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+ul {
+    padding-left: 1.25em;
+    padding-bottom: 0.25em;
+}
+
+li {
+    padding-bottom: 0.35em;
+}
+/* the styles for the footer */
+
+footer p {
+    border-top: 3px solid blue;
+    border-bottom: 3px solid blue;
+    background: blue;
+    font-size: 80%;
+    color: white;
+    text-align: center; 
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+

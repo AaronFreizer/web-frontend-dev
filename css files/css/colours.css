@@ -1,0 +1,36 @@
+/*colours*/
+body {
+    font-size : 100%;
+    margin-left :2em;
+    margin-right :2em;
+}
+
+header {
+    padding-bottom : 0.75em;
+    border-bottom : 3px solid black;
+    color: blue;
+}
+
+h1 {
+    font-size :300%;
+    margin-bottom :0;
+    
+}
+
+p {
+    color : rgb(30%,20%,90%);
+}
+b {
+    color : rgba(60%,29%,88%,0.50)
+}
+
+strike {
+    color: hsl(355,48%,35%);
+}
+u{
+    color: hsla(69,55%,60%,0.78);
+}
+
+i{
+    color: #ffdde2;
+}
