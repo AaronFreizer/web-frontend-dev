@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Flexbox Wrap</title>
+        <style>
+            
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            .wrapper {
+                display:flex;
+                flex-wrap: wrap;
+            }
+
+            .box { 
+                min-width: 500px;
+                /* flex-basis: 800px; */
+                height: 100px;
+            }
+
+            .red { 
+                background: red;
+                /* flex-grow: 1; */
+                /* flex-shrink: 1; */
+                order: 3;
+
+            }
+
+            .green {
+                background:green;
+                /* flex-grow: 3; */
+                /* flex-shrink: 3; */
+
+
+            }
+
+            .blue {
+                background: blue;
+                /* flex-grow: 2; */
+                /* flex-shrink: 2; */
+
+
+            }
+
+
+        </style>
+
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="box red">1</div>
+            <div class="box green">2</div>
+            <div class="box blue">3</div>
+        </div>
+    </body>
+</html>

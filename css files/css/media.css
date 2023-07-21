@@ -1,0 +1,29 @@
+<style>
+
+body{
+    background-color: blue;
+    height: 100vh;
+}
+
+@media  screen and (max-width: 1400px) {
+    body {
+        background-color:yellow;
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width:800px) {
+    body {
+        background-color: green;
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width:600px) {
+    body {
+        background-color: red;
+        height: 100vh;
+    }
+}
+
+</style>

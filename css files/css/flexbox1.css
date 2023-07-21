@@ -13,7 +13,7 @@
     list-style: none;
 }
 
-.flex-item {
+.flex-item { 
     background: tomato;
     padding: 5px;
     width: 200px;
