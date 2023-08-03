@@ -34,6 +34,7 @@ p {
 
 .double {
     border: 1px double blue;
+    background-color: aqua;
     margin: .5em;
 }
 
