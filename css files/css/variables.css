@@ -1,0 +1,133 @@
+.wrapper {
+    display: grid;
+    /* grid-template-columns:  auto auto auto; */
+    /* grid-template-columns:   1fr 2fr 1fr ; */
+    /* grid-template-columns:   200px 200px 200px ; */
+    /* grid-template-columns:  repeat(3, 200px) ; */
+    grid-template-columns: 1fr minmax(30%, 70%) 1fr;
+    /* grid-template-rows:  repeat(7, 1fr) ; */
+    grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    /* grid-template-rows:   50px auto 50px ; */
+    grid-template-areas: "red red red"
+                          "yellow orange purple"
+                          "yellow green purple"
+                          "yellow green purple"
+                          "yellow green purple"
+                          "yellow green purple"
+                          "blue blue blue";
+
+    background-color: antiquewhite;
+    justify-content: center;
+    height: 80vh;
+    gap: .25rem;
+
+}
+
+.box {
+    /* height: 200px; */
+    text-align: center;
+    font-size: larger;
+}
+
+.red {
+    grid-area: red;
+    background-color: red;
+    /* grid-column-start: 2;
+    grid-column-end: 4; */
+    /* grid-column: 2 / 4; */
+    /* grid-column-start: span 2;
+    grid-row-start: span 2; */
+}
+
+.green {
+    grid-area: green;
+    background-color: green;
+}
+
+
+.blue {
+    grid-area: blue;
+    background-color: blue;
+}
+
+.yellow {
+    grid-area: yellow;
+    background-color: yellow;
+}
+
+.purple {
+    grid-area: purple;
+    background-color: purple;
+}
+
+.orange {
+    grid-area: orange;
+    background-color: orange;
+}
+
+.two {
+    grid-row-start: span 2;
+}
+
+
+@media screen  and (max-width: 920px) {
+    .wrapper {
+        grid-template-areas: "red red red"
+                                "orange orange orange"
+                                "yellow green green"
+                                "yellow green green"
+                                "yellow green green"
+                                "yellow green green"
+                                "purple blue blue";
+    } 
+}
+
+@media screen  and (max-width: 600px) {
+    .wrapper {
+        /* display: inline-grid; */
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(10 , 1fr);
+        /* grid-template-areas: "red red red"
+                                "orange orange orange"
+                                "green green green"
+                                "green green green"
+                                "green green green"
+                                "green green green"
+                                "green green green"
+                                "yellow yellow yellow"
+                                "purple purple purple"
+                                "blue blue blue"; */
+    }
+
+    .red {
+        /* grid-column-start: span 3; */
+        grid-column: span 3;
+        grid-row: 1 / 2;
+    }
+
+    .orange {
+        /* grid-column-start: span 3; */
+        grid-column: span 3;
+        grid-row: 2 / 3;
+    }
+
+    .green {
+        /* grid-column-start: span 3; */
+        grid-column: span 3;
+        grid-row: 3 / 8;
+    }
+
+    .yellow {
+        grid-column: span 3;
+        /* grid-column-start: span 3; */
+        grid-row: 8 / 9;
+    }
+
+    .purple {
+        grid-column: span 3;
+        grid-row: 9 / 10;
+    }
+
+    .blue {
+        grid-column: span 3;
+        grid-row: 10 / 11;
