@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    position: relative;
+    top: 20rem;
+
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+
+    background: wheat;
+    border-top: 10px solid red;
+    border-bottom: 10px solid purple;
+    border-left: 10px solid blue;
+    border-right: 10px solid  green;
+
+
+    transition: 2000ms;
+    /* transform: translate(200px, 300px); */
+    /* transform: translateX(200px); */
+    /* transform: translateY(200px); */
+    /* transform: translateZ(200px); */
+
+    /* transform: rotateX(180deg); */
+    /* transform: rotateY(180deg); */
+    /* transform: rotateZ(180deg); */
+    /* transform: rotate(45deg); */
+
+    /* transform: scaleX(3); */
+    /* transform: scaleY(3); */
+    /* transform: scaleZ(3); */
+    /* transform: scale(3); */
+
+    /* transform: skewX(45deg); */
+    /* transform: skewY(45deg); */
+    /* transform: skew(45deg); */
+
+
+    /* transform: rotate(45deg) scale(.5) translateY(500px); */
+    /* transform: rotate(-180deg); */
+    /* transform: translateX(-200px); */
+
+}
